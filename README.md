@@ -60,12 +60,6 @@ une prévision à 60 minutes, puis affiche les MAE/RMSE par horizon (15, 30, 45 
 - Sortie : vecteur de 60 valeurs (prévision minute par minute sur 1 h).
 - Entraînement : Adam (lr 0.001), perte MSE, batch 32, early stopping.
 
-## Pistes pour aller plus loin
-
-- ajouter la pluie et le vent aux variables météo ;
-- explicabilité : SHAP sur les features, mécanisme d'attention sur le LSTM ;
-- généraliser d'une station à un réseau entier (dépendances spatiales).
-
 ## Pour apprendre les notions
 
 Ressources accessibles (blogs, livres en ligne gratuits, docs officielles) pour
@@ -119,8 +113,3 @@ comprendre chaque brique. Elles sont aussi rangées dans
 
 - Tutoriel officiel, *Time series forecasting* :
   <https://www.tensorflow.org/tutorials/structured_data/time_series>
-
-## Encadrement
-
-Stage encadré par Gaël Pallares et Myriam Foucras (CESI LINEACT), avec l'appui
-de Rohan Fossé.
