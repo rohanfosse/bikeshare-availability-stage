@@ -1,0 +1,14 @@
+# Cœur scientifique
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5
+
+# Deep learning (MLP & LSTM) — cf. papier (TensorFlow/Keras)
+tensorflow>=2.15
+
+# Références classiques
+xgboost>=2.0
+statsmodels>=0.14      # ARIMA
+
+# Visualisation
+matplotlib>=3.9

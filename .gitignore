@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Données (ne pas versionner les jeux de données réels)
+data/*.csv
+data/*.parquet
+!data/README.md
+
+# Sorties
+*.png
+*.h5
+*.keras
+outputs/
