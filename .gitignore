@@ -15,3 +15,7 @@ data/*.parquet
 *.h5
 *.keras
 outputs/
+
+# Real GBFS status data — not committed (starter runs on synthetic data; see data/README.md).
+data/status_villes/
+*.parquet
